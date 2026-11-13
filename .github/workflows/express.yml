@@ -27,4 +27,4 @@ jobs:
       with:
         context: ./3_1/express-app
         push: true
-        tags: ${{ vars.DOCKER_USERNAME }}/express-app:latest
+        tags: ${{ vars.DOCKERHUB_USERNAME }}/express-app:latest

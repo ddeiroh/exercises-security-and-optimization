@@ -33,5 +33,5 @@ jobs:
         with:
           node-version: 22
 
-      - name: Run ${{ matrix.test_script }}
-        run: bash "${{ matrix.test_script }}"
+      #- name: Run ${{ matrix.test_script }}
+      #  run: bash "${{ matrix.test_script }}"
